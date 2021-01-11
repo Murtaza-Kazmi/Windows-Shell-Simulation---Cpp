@@ -25,6 +25,17 @@ int main(){
 	int terminatedCount = 0;
 	
     while (1){
+		cout << endl << "Murtaza Kazmi's Shell" <<endl;
+		cout << "Helps manage processes in Windows" <<endl;
+		cout << "Use at your own risk ;-)" <<endl;
+		cout  << endl << "Help: "<<endl;
+		cout << "run 'process_name' (runs a process with that name. Currently set to Notepad)"<<endl;
+		cout << "kill 'process_name' (kills all processes with that name - again, type Notepad or change source code"<<endl;
+		cout << "lst (lists all running processes)"<<endl;
+		cout << "list All (lists all processes)"<<endl << endl;
+		
+		
+		
 		fileAddress = "C:\\WINDOWS\\system32\\";
 		HANDLE hProcess;
 		HANDLE hThread;
